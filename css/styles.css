@@ -35,3 +35,14 @@ nav ul li a{
     text-decoration: none;
     color: black;
 }
+
+.contentOne{
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentOne img{
+    width: 50%;
+}
