@@ -211,8 +211,79 @@ nav ul li a{
     font-family: 'Open Sans', sans-serif;
 }
 
+.newsletter{
+    width: 100%;
+    height: 375px;
+    background-color: hsl(238, 22%, 44%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
 
+}
 
+.newsletterContent{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletterContentOne{
+    width: 35%;
+    color: white;
+}
+
+.newsletterContentOne h1{
+    font-size: 44px;
+}
+
+.newsletterContentOne p{
+    font-size: 16px;
+    letter-spacing: 2px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.space{
+    width: 30%;
+}
+
+.newsletterContentTwo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.newsletterContentTwo input{
+    width: 550px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 75%);
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 3px;
+    border: none;
+}
+
+.newsletterContentTwo button{
+    width: 250px;
+    height: 55px;
+    margin-top: 20px;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 1px hsl(238, 22%, 44%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.newsletterContentTwo button:hover{
+    cursor: pointer;
+}
 
 
 
